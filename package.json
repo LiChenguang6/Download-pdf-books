@@ -1,0 +1,12 @@
+{
+  "name": "download-pdf-books-userscripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Userscripts for publisher-provided ebook downloads",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check sciencereading-official-download.user.js"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "jsdom": "26.1.0" }
+}
